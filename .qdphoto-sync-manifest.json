@@ -1,6 +1,12 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "source": "site",
+  "environment": "test",
+  "validationOverlay": {
+    "publicSiteUrl": "https://puchiryuuvrc.github.io/QDPhoto2026-Pages-Test/",
+    "webAppUrl": "https://script.google.com/macros/s/AKfycbwboX84w3tKqa4X1HfavQKS3Mtle6kLjFK2cM_atG5vRsBxDMOIy7jPRFaanUph2ZFs/exec?page=vote",
+    "expectedRepo": "puchiryuuvrc/qdphoto2026-pages-test"
+  },
   "runtimeGeneratedFiles": [
     "assets/site-phase-config.js",
     "entries.html",
@@ -9,14 +15,24 @@
   "runtimeGeneratedDirectories": [
     "assets/entries"
   ],
-  "files": {
+  "sourceFiles": {
     ".nojekyll": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
     "assets/main-visual-2026.webp": "f123371864e424935da055fd16f2f923419c4893dd11b358814c82b44d4e5b91",
-    "assets/site-phase.js": "8f92d13c28dc22704e3820bb161e7c4f445f1d30f8f4f097cf4dd7ca14264933",
+    "assets/site-phase.js": "4ac0bd07dedcd9bd0fed804975622a12f77b227c6753e5db516140ececb45b9f",
     "assets/social-card-2026.jpg": "17128cf2cd234aee082f0223427267b483fa94b4fd905c474b7df74e49dcca5e",
     "assets/styles.css": "83ada4bc6d6e9be424bde0c353c152f3718eaaa40eeb084526d76e74d3239267",
     "assets/vrcqd-logo.png": "ade4303100bc20e2b119bbd4bb9fb74095464ec66a35852136fca1b148ae1636",
-    "entries-preview.html": "314180dd99c85acee509ef4a08bbc6d74d13341185c813ce4280e055df023aaa",
-    "index.html": "aa2f0ecff826ccc37d561610be1f423b788df7bfb78b242e20a2ec1d993c83f1"
+    "entries-preview.html": "9b8db3bbd4de649973aa47eb99a17fa4def4379432c72b1dce33ece5107d8069",
+    "index.html": "c38d3ed96862eb3a71543d2ac748f3d855f427d31047e7ebb53c22eedcd85a40"
+  },
+  "files": {
+    ".nojekyll": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "assets/main-visual-2026.webp": "f123371864e424935da055fd16f2f923419c4893dd11b358814c82b44d4e5b91",
+    "assets/site-phase.js": "4ac0bd07dedcd9bd0fed804975622a12f77b227c6753e5db516140ececb45b9f",
+    "assets/social-card-2026.jpg": "17128cf2cd234aee082f0223427267b483fa94b4fd905c474b7df74e49dcca5e",
+    "assets/styles.css": "83ada4bc6d6e9be424bde0c353c152f3718eaaa40eeb084526d76e74d3239267",
+    "assets/vrcqd-logo.png": "ade4303100bc20e2b119bbd4bb9fb74095464ec66a35852136fca1b148ae1636",
+    "entries-preview.html": "1be224fac58ed8ac352aad43629e735aa3031fa21c3b3c75b4cd51294808caff",
+    "index.html": "ac257a82c821f855d29776a8772d1b8ff01c244d278c6ecf17d44c4dff2cfee8"
   }
 }

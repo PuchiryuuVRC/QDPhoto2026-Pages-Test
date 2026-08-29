@@ -64,6 +64,7 @@
     var phase = resolvePhase(config, now);
     renderEnvironmentBanner();
     updateDeploymentLinks();
+    updatePhaseLinkLabels(phase);
     document.documentElement.dataset.sitePhase = String(phase);
     document.querySelectorAll("[data-phase-link]").forEach(function (element) {
       var key = String(element.dataset.phaseLink || "");
@@ -72,6 +73,14 @@
     });
     document.querySelectorAll("[data-phase-status]").forEach(function (element) {
       element.textContent = phaseMessages[phase] || "";
+    });
+  }
+
+  function updatePhaseLinkLabels(phase) {
+    if (phase !== 4 && phase !== 5 && phase !== 6) return;
+    var label = phase === 4 ? "全作品を見る／投票する" : "全作品を見る";
+    document.querySelectorAll('[data-phase-link="menuEntries"]').forEach(function (element) {
+      element.textContent = label;
     });
   }
 
