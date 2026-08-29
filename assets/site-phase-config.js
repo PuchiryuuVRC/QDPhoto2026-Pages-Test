@@ -1,16 +1,1 @@
-window.QD_PHOTO_PHASE_CONFIG = Object.freeze({
-  "environment": "test",
-  "environmentLabel": "TEST環境 (TEST)",
-  "publicSiteUrl": "https://puchiryuuvrc.github.io/QDPhoto2026-Pages-Test/",
-  "voteWebAppUrl": "https://script.google.com/macros/s/AKfycbwboX84w3tKqa4X1HfavQKS3Mtle6kLjFK2cM_atG5vRsBxDMOIy7jPRFaanUph2ZFs/exec?page=vote",
-  "mode": "manual",
-  "manualPhase": 5,
-  "entryOpenAt": "2026-09-01T00:00:00+09:00",
-  "entryCloseAt": "2026-09-20T23:59:00+09:00",
-  "voteOpenAt": "2026-09-21T21:00:00+09:00",
-  "voteCloseAt": "2026-09-30T23:59:00+09:00",
-  "resultPublishAt": "",
-  "galleryStatus": "published",
-  "voteStatus": "hidden",
-  "resultStatus": "draft"
-});
+window.QD_PHOTO_PHASE_CONFIG = Object.freeze({"environment":"test","environmentLabel":"TEST環境 (TEST)","publicSiteUrl":"https://puchiryuuvrc.github.io/QDPhoto2026-Pages-Test/","voteWebAppUrl":"https://script.google.com/macros/s/AKfycbwboX84w3tKqa4X1HfavQKS3Mtle6kLjFK2cM_atG5vRsBxDMOIy7jPRFaanUph2ZFs/exec?page=vote","mode":"manual","manualPhase":6,"entryOpenAt":"2026-09-01T00:00:00+09:00","entryCloseAt":"2026-09-20T23:59:00+09:00","voteOpenAt":"2026-09-21T21:00:00+09:00","voteCloseAt":"2026-09-30T23:59:00+09:00","resultPublishAt":"","galleryStatus":"published","voteStatus":"hidden","resultStatus":"published"});
